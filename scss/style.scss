@@ -1,6 +1,7 @@
 .footer {
 	background: #222222;
 	min-height: 250px;
+	max-width: 72.5rem;
 
 	.bike {
 		background: url("../images/footer-bike.png") no-repeat center 45px;
@@ -13,6 +14,8 @@
 	min-height: 160px;
 	background: url('../images/footer-dirt.png') repeat-x;
 	padding-top: 0.7rem;
+	max-width: 72.5rem;
+	display: block;
 
 	p {
 		color: #ffffff;
@@ -72,6 +75,7 @@
 .nav{
 	padding-right: 0px;
 	padding-left: 0px;
+	padding-botton: 20px;
 }
 .row {
   width: 100%;
