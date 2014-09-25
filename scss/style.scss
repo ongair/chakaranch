@@ -130,10 +130,6 @@
 			box-sizing: border-box;
 			/* transition: box-shadow 0.45s, border-color 0.45s ease-in-out; */
 		}
-		.button {
-			background-color: #996600;
-			border-color: #996600;
-		}
 }
 
 .paragraphtwo {
@@ -143,4 +139,13 @@
 	height: 350px;
 	margin-top: -45px;
 	border-bottom: solid 1px #cccccc;
+}
+
+.button:hover, .button:focus {
+	background-color: #996600;
+}
+
+.button {
+	background-color: #996600;
+	border-color: #996600;
 }
