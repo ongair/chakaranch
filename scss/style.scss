@@ -67,6 +67,7 @@
 }
 
 .orbit-caption{ 
+	background: none !important;
 }
 
 .rowfullpage {
@@ -94,5 +95,40 @@
 		color: #996600;
 		font-size: 0.9rem;
 
+		}
+}
+.form {
+	border-top: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	height: 350px;
+	margin-top: -45px;
+
+	.paragraphone {
+	height: 99px;
+	}
+
+	.input{
+		-webkit-appearance: none;
+		-webkit-border-radius: 0px;
+		background-color: #FFFFFF;
+		font-family: inherit;
+		border: 1px solid #cccccc;
+		/* box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); */
+		color: rgba(0, 0, 0, 0.75);
+		display: block;
+		font-size: 0.875rem;
+		margin: 0 0 0 0;
+		padding: 0.5rem;
+		height: 3.0000rem;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		/* transition: box-shadow 0.45s, border-color 0.45s ease-in-out; */
+		}
+		.button {
+		background-color: #996600;
+		border-color: #996600;
 		}
 }
