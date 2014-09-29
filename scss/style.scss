@@ -36,7 +36,7 @@
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-    background: #CC6600;
+    background: #D19C67;
     color: #ffffff;
 }
 .top-bar-section li.active:not(.has-form) a:not(.button), top-bar-section li:not(.has-form) a:not(.button) {
@@ -50,7 +50,7 @@
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: #CC6600;
+    background: #D19C67;
     
 }
 
@@ -64,6 +64,8 @@
 .top-bar {
     background: #282828;
     color: #333333;
+    margin-bottom: 25px;
+    padding-left: 69px;
 }
 
 .orbit-caption{ 
@@ -73,6 +75,7 @@
 .rowfullpage {
 	
      max-width: 100%;
+     margin-bottom: 2px;
 }
 .nav{
 	padding-right: 0px;
@@ -89,10 +92,10 @@
 }
 .karibu {
 	h2 {
-	color: #996600;
+	color: #D19C67;
 	}
 		p {
-		color: #996600;
+		color: #D19C67;
 		font-size: 0.9rem;
 
 		}
@@ -103,12 +106,13 @@
 	border-right: solid 1px #cccccc;
 	height: 350px;
 	margin-top: -45px;
+	background-color: #ffffff;
 
 	.paragraphone {
 		height: 99px;
 		font-size: 1.5rem;
 		padding-left: 90px;
-		color: #996600;
+		color: #D19C67;
 
 	}
 	.input{
@@ -139,15 +143,20 @@
 	height: 350px;
 	margin-top: -45px;
 	border-bottom: solid 1px #cccccc;
+	background-color: #ffffff;
+	
 }
 
+.little-man {
+	padding-left: 25px;
+}
 .button:hover, .button:focus {
-	background-color: #996600;
+	background-color: #D19C67;
 }
 
 .button {
-	background-color: #996600;
-	border-color: #996600;
+	background-color: #D19C67;
+	border-color: #D19C67;
 }
 
 .submit {
@@ -163,7 +172,7 @@
 .activities {
 	font-size: 1.5rem;
 	padding-left: 110px;
-	color: #996600;
+	color: #D19C67;
 }
 .tinyslider {
 	height: 115px;
@@ -186,4 +195,27 @@
 	color: #ffffff;
 	font-size: 1.5rem;
 	font-weight: 100;
+}
+.navbarfonts {
+	font-size: 0.9rem;
+	color: #cccccc;
+	font-weight: 500;
+	
+}
+.orbit-container {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	background: none;
+	height: 500px;
+}
+.logo {
+padding-left: 110px;
+margin-top: -10px;
+}
+.social {
+	padding-top: 19px;
+	.instagram{
+
+	}
 }
