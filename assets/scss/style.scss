@@ -1,3 +1,33 @@
 @import "bourbon/bourbon";
 @import "neat/neat";
 @import "base/base";
+
+$light-brown: #af8049;
+
+body {
+  margin: 0px;
+
+  footer {
+    section.copyright {
+      background: url("../images/footer-dirt.png") repeat-x;
+      min-height: 160px;
+      width: 100%;
+
+      section {
+        padding: 1em;
+        @include outer-container;
+
+        aside { 
+          @include span-columns(6); 
+          color: #fff;
+          font-size: 0.9em;
+
+          @include media($medium-screen-down) {
+            @include span-columns(4);
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
