@@ -249,14 +249,30 @@ body {
   body footer {
     width: 100%; }
     body footer .information {
-      background-color: #222222;
-      /*background: url("../images/footer-bike.png") repeat-none $dark-gray 0 0;*/
-      /*min-height: 250px;*/ }
+      background-color: #222222; }
       body footer .information section {
-        min-height: 254px;
-        background-image: url("../images/footer-bike-smaller.png");
-        background-repeat: no-repeat;
-        background-position: left bottom; }
+        min-height: 215px;
+        padding: 0px; }
+        body footer .information section .bike {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 31.76157%;
+          background-image: url("../images/footer-bike-smaller.png");
+          background-repeat: no-repeat;
+          background-position: left bottom;
+          min-height: inherit; }
+          body footer .information section .bike:last-child {
+            margin-right: 0; }
+          @media screen and (max-width: 40em) {
+            body footer .information section .bike {
+              background-position: center bottom;
+              float: left;
+              display: block;
+              margin-right: 7.42297%;
+              width: 100%; }
+              body footer .information section .bike:last-child {
+                margin-right: 0; } }
     body footer .copyright {
       background: url("../images/footer-dirt.png") repeat-x;
       min-height: 160px;
@@ -267,7 +283,7 @@ body {
         margin-right: 2.35765%;
         width: 48.82117%;
         color: #fff;
-        font-size: 0.9em; }
+        font-size: 0.8em; }
         body footer .copyright section aside:last-child {
           margin-right: 0; }
         @media screen and (max-width: 40em) {

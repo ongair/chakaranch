@@ -19,13 +19,22 @@ body {
     .information {
       background-color: $dark-gray;
 
-      /*background: url("../images/footer-bike.png") repeat-none $dark-gray 0 0;*/
-      /*min-height: 250px;*/
       section {
-        min-height: 254px;
-        background-image: url("../images/footer-bike-smaller.png");
-        background-repeat: no-repeat;
-        background-position: left bottom;
+        min-height: 215px;
+        padding: 0px;
+
+        .bike {
+          @include span-columns(4);
+          background-image: url("../images/footer-bike-smaller.png");
+          background-repeat: no-repeat;
+          background-position: left bottom;
+          min-height: inherit;
+
+          @include media($medium-screen-down) {
+            background-position: center bottom;
+            @include span-columns(4);
+          }  
+        }        
       } 
     }
 
@@ -38,7 +47,7 @@ body {
         aside { 
           @include span-columns(6); 
           color: #fff;
-          font-size: 0.9em;
+          font-size: 0.8em;
 
           @include media($medium-screen-down) {
             @include span-columns(4);
