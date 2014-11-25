@@ -3,20 +3,38 @@
 @import "base/base";
 
 $light-brown: #af8049;
+$dark-gray: #222222;
 
 body {
   margin: 0px;
 
+  section {
+    padding: 1em;
+    @include outer-container;
+  }
+
   footer {
-    section.copyright {
+    width: 100%;
+
+    .information {
+      background-color: $dark-gray;
+
+      /*background: url("../images/footer-bike.png") repeat-none $dark-gray 0 0;*/
+      /*min-height: 250px;*/
+      section {
+        min-height: 254px;
+        background-image: url("../images/footer-bike-smaller.png");
+        background-repeat: no-repeat;
+        background-position: left bottom;
+      } 
+    }
+
+    .copyright {
       background: url("../images/footer-dirt.png") repeat-x;
       min-height: 160px;
       width: 100%;
 
-      section {
-        padding: 1em;
-        @include outer-container;
-
+      section {        
         aside { 
           @include span-columns(6); 
           color: #fff;
