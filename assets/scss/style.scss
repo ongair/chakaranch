@@ -22,9 +22,10 @@ body {
       section {
         min-height: 215px;
         padding: 0px;
+        $visual-grid: true !default;
 
         .bike {
-          @include span-columns(4);
+          @include span-columns(4);          
           background-image: url("../images/footer-bike-smaller.png");
           background-repeat: no-repeat;
           background-position: left bottom;
@@ -39,7 +40,21 @@ body {
         .contacts {
           @include span-columns(4);
           padding: 1em;
-          
+          color: #fff;
+          font-size: 0.9em;
+
+          tel {
+            text-decoration: underline;
+          }
+
+          a {
+            color: #fff;
+          }
+
+          @include media($medium-screen-down) {
+            @include span-columns(4);
+            text-align: center;
+          }
         }        
       } 
     }
@@ -50,10 +65,14 @@ body {
       width: 100%;
 
       section {        
-        aside { 
+        article { 
           @include span-columns(6); 
-          color: #fff;
-          font-size: 0.8em;
+          
+          p {
+            color: #fff;
+            font-size: 0.8em;  
+          }
+          
 
           @include media($medium-screen-down) {
             @include span-columns(4);
