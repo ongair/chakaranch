@@ -252,7 +252,7 @@ body {
       background-color: #222222; }
       body footer .information section {
         min-height: 215px;
-        padding: 0px; }
+        padding: 1.25em 0px 0px; }
         body footer .information section .bike {
           float: left;
           display: block;
@@ -261,7 +261,8 @@ body {
           background-image: url("../images/footer-bike-smaller.png");
           background-repeat: no-repeat;
           background-position: left bottom;
-          min-height: inherit; }
+          min-height: inherit;
+          float: left; }
           body footer .information section .bike:last-child {
             margin-right: 0; }
           @media screen and (max-width: 40em) {
@@ -277,24 +278,38 @@ body {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 31.76157%;
-          padding: 1em;
-          color: #fff;
-          font-size: 0.9em; }
+          width: 23.23176%; }
           body footer .information section .contacts:last-child {
             margin-right: 0; }
-          body footer .information section .contacts tel {
-            text-decoration: underline; }
           body footer .information section .contacts a {
             color: #fff; }
+        body footer .information section .opening {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%; }
+          body footer .information section .opening:last-child {
+            margin-right: 0; }
+        body footer .information section .contacts, body footer .information section .opening {
+          padding: 1em;
+          color: #fff;
+          font-size: 0.9em;
+          float: right; }
+          body footer .information section .contacts tel, body footer .information section .opening tel {
+            text-decoration: underline; }
+          body footer .information section .contacts h6, body footer .information section .opening h6 {
+            margin-bottom: 0.5em; }
+          body footer .information section .contacts em, body footer .information section .contacts a, body footer .information section .opening em, body footer .information section .opening a {
+            color: #b17f4c;
+            font-weight: bold; }
           @media screen and (max-width: 40em) {
-            body footer .information section .contacts {
+            body footer .information section .contacts, body footer .information section .opening {
               float: left;
               display: block;
               margin-right: 7.42297%;
               width: 100%;
               text-align: center; }
-              body footer .information section .contacts:last-child {
+              body footer .information section .contacts:last-child, body footer .information section .opening:last-child {
                 margin-right: 0; } }
     body footer .copyright {
       background: url("../images/footer-dirt.png") repeat-x;

@@ -21,8 +21,7 @@ body {
 
       section {
         min-height: 215px;
-        padding: 0px;
-        $visual-grid: true !default;
+        padding: 1.25em 0px 0px;        
 
         .bike {
           @include span-columns(4);          
@@ -30,6 +29,7 @@ body {
           background-repeat: no-repeat;
           background-position: left bottom;
           min-height: inherit;
+          float: left;
 
           @include media($medium-screen-down) {
             background-position: center bottom;
@@ -38,17 +38,34 @@ body {
         }
 
         .contacts {
-          @include span-columns(4);
+          @include span-columns(3);
+          a {
+            color: #fff;
+          }
+
+        }
+
+        .opening {
+          @include span-columns(5);
+        }
+
+        .contacts, .opening {          
           padding: 1em;
           color: #fff;
           font-size: 0.9em;
+          float: right;
 
           tel {
             text-decoration: underline;
           }
 
-          a {
-            color: #fff;
+          h6 {
+            margin-bottom: 0.5em;
+          }
+
+          em, a {
+            color: #b17f4c;
+            font-weight: bold;
           }
 
           @include media($medium-screen-down) {
