@@ -10,7 +10,48 @@ body {
 
   section {
     padding: 1em;
-    @include outer-container;
+    @include outer-container;    
+  }  
+
+  video {
+    margin: auto;
+
+    @include media($large-screen) {
+      width: 50%;
+    }
+  }
+
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  section.main {
+    padding: 2em 1em;
+
+    aside {
+      @include span-columns(6);
+
+      h2 {
+        color: $light-brown;
+        span.light {
+          font-weight: normal;;
+        } 
+      }
+
+      @include media($medium-screen-down) {
+        @include span-columns(4);
+      }
+    }
   }
 
   footer {
