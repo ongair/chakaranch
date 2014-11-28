@@ -3,9 +3,11 @@
     <section>      
       <div class="opening">
         <h6>CHAKA RANCH LEISURE PARK</h6>
+        <p>An exciting new adrenaline filled getaway on the slopes of Mount Kenya</p>
         <p>Entry Fee:- Children 100, Adults 200<br />
-        Open Saturdays, Sundays &amp; Public Holidays <em>8AM - 6PM</em></br />
-        Weekdays:- Groups only, minimum 15pax by special arrangement.<br />
+        <!-- Open Saturdays, Sundays &amp; Public Holidays <em>8AM - 6PM</em></br /> -->
+        Open Daily (December 2014)
+        <!-- Weekdays:- Groups only, minimum 15pax by special arrangement.<br /> -->
         For enquiry write to <a href="mailto:info@chakaranch.com">info@chakaranch.com</a></p>
       </div>
       <div class="contacts">
