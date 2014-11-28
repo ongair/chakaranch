@@ -4,10 +4,28 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chaka Ranch | Take the driver's seat!</title>  
+    <link rel="stylesheet" href="assets/stylesheets/owl.carousel.css" />
+    <link rel="stylesheet" href="assets/stylesheets/owl.transitions.css" />
+    <link rel="stylesheet" href="assets/stylesheets/owl.theme.css" />
     <link rel="stylesheet" href="assets/stylesheets/style.css" />
   </head>
  	
  	<body>
+ 		<div class="carousel">
+ 			<div id="hero-slider" class="owl-carousel owl-theme">
+
+			  <div class="item"><img src="assets/images/chaka-teardrop.jpg" alt="Chaka Ranch"></div>
+			  <div class="item"><img src="assets/images/baby-quad-bw.jpg" alt="Baby Quad"></div>			  
+			  <div class="item"><img src="assets/images/eating-area.jpg" alt="Eating Area"></div>
+			  <div class="item"><img src="assets/images/starting-line.jpg" alt="Starting Line"></div>
+			  <div class="item"><img src="assets/images/restaurants.jpg" alt="Restaurant"></div>
+			  <div class="item"><img src="assets/images/mount-kenya.jpg" alt="Mount Kenya"></div>
+			  <div class="item"><img src="assets/images/chaka-ranch-bike-lineup.jpg" alt="Bike Lineup"></div>
+			  <div class="item"><img src="assets/images/chaka-ranch-sunset.jpg" alt="Chaka After Dark"></div>
+			 
+			</div>
+ 		</div>
+
  		<section class="main">
  			<aside>
  				<h2><span class="light">Karibu</span> Chaka Ranch</h2>
@@ -25,5 +43,8 @@
  			</article> -->
  		</section>
  		<?php require 'footer.php';?>
+ 		<script type="text/javascript" src="assets/javascripts/jquery-1.9.1.min.js"></script>
+ 		<script type="text/javascript" src="assets/javascripts/owl.carousel.min.js"></script>
+ 		<script type="text/javascript" src="assets/javascripts/site.js"></script>
  	</body>
 </html>
