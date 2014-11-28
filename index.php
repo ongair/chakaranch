@@ -11,6 +11,18 @@
   </head>
  	
  	<body>
+ 		<div class="nav">
+ 			<section>
+ 				<ul>
+ 					<li class="active"><a class="">Home</a></li>
+ 					<li><a class="">Rides</a></li>
+ 					<li><a class="">Activities</a></li>
+ 					<li><a class="">Gallery</a></li>
+ 					<li><a class="">Contact Us</a></li>
+ 				</ul>
+ 			</section>
+ 		</div>
+
  		<div class="carousel">
  			<div id="hero-slider" class="owl-carousel owl-theme">
 
