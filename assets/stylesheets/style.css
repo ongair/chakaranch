@@ -281,6 +281,8 @@ body {
     width: 100%;
     background-color: #222222;
     /*min-height: 1em;*/ }
+    body .nav section {
+      padding: 0.65em 1em; }
     body .nav li {
       background: transparent;
       display: inline;

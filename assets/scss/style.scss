@@ -52,6 +52,9 @@ body {
   }
 
   .nav {
+    section {
+      padding: 0.65em 1em;
+    }
     width: 100%;
     background-color: $dark-gray;
     /*min-height: 1em;*/
