@@ -277,22 +277,66 @@ body {
       height: auto; }
     body .carousel .owl-buttons {
       display: none; }
+    @media screen and (max-width: 40em) {
+      body .carousel {
+        width: 100%;
+        padding: 0px; } }
+  body header {
+    background: url("../images/banner.png") repeat-x top left;
+    /*height: 110px;*/ }
+    body header section {
+      padding: 0.5em 1em; }
+    body header .brand {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      body header .brand:last-child {
+        margin-right: 0; }
+    body header .social {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      body header .social:last-child {
+        margin-right: 0; }
+      body header .social ul {
+        float: right; }
+      body header .social li {
+        display: inline-block;
+        padding: 2em 5px; }
+        body header .social li a {
+          height: 30px;
+          width: 31px;
+          display: block; }
+        body header .social li a.facebook {
+          background-image: url("../images/facebook.png"); }
+        body header .social li a.instagram {
+          background-image: url("../images/instagram.png"); }
+        body header .social li a.twitter {
+          background-image: url("../images/twitter.png"); }
+        @media screen and (max-width: 40em) {
+          body header .social li {
+            padding: 1.2em 5px; } }
   body .nav {
     width: 100%;
     background-color: #222222;
     /*min-height: 1em;*/ }
     body .nav section {
-      padding: 0.65em 1em; }
+      padding: 0px 1em; }
     body .nav li {
       background: transparent;
-      display: inline;
-      /*line-height: 60px;*/
-      padding: 2em 2em;
+      display: inline-block;
+      padding: 0.5em 2em;
       text-align: center;
       text-decoration: none;
       width: auto; }
       body .nav li a {
         color: #fff; }
+      @media screen and (max-width: 40em) {
+        body .nav li {
+          padding: 0.75em .45em;
+          font-size: 0.8em; } }
     body .nav li.active {
       background-color: #af8049; }
   body section.main {

@@ -11,6 +11,22 @@
   </head>
  	
  	<body>
+ 		<header>
+ 			<section>
+ 				<div class="brand">
+	 				<a href="#">
+	 					<img src="assets/images/logo.png" alt="Chaka Ranch">
+	 				</a>
+	 			</div>
+	 			<div class="social">
+	 				<ul>
+	 					<li><a href="" class="facebook"></a></li>
+	 					<li><a href="" class="twitter"></a></li>
+	 					<li><a href="" class="instagram"></a></li>
+	 				</ul>
+	 			</div>
+ 			</section>
+ 		</header>
  		<div class="nav">
  			<section>
  				<ul>

@@ -49,11 +49,58 @@ body {
       display: none;
     }
 
+    @include media($medium-screen-down) {
+      width: 100%;
+      padding: 0px;
+    }
+
+  }
+
+  header {
+    background: url("../images/banner.png") repeat-x top left;
+    /*height: 110px;*/
+
+    section {
+      padding: 0.5em 1em;
+    }
+
+    .brand {
+      @include span-columns(4);
+    }
+
+    .social {
+      @include span-columns(8);
+      ul { float: right; }
+      li {
+        display: inline-block;
+        padding: 2em 5px;
+
+        a {
+          height: 30px;
+          width: 31px;
+          display: block;
+        }
+
+        a.facebook {
+          background-image: url("../images/facebook.png");
+        }
+        a.instagram {
+          background-image: url("../images/instagram.png");
+        }
+        a.twitter {
+          background-image: url("../images/twitter.png");
+        }
+
+        @include media($medium-screen-down) {
+          padding: 1.2em 5px;
+        }
+      }
+    }
   }
 
   .nav {
     section {
-      padding: 0.65em 1em;
+      padding: 0px 1em;
     }
     width: 100%;
     background-color: $dark-gray;
@@ -61,15 +108,20 @@ body {
 
     li {
       background: transparent;
-      display: inline;
-      /*line-height: 60px;*/
-      padding: 2em 2em;
+      display: inline-block;
+      padding: 0.5em 2em;
       text-align: center;
       text-decoration: none;
       width: auto; 
 
       a {
         color: #fff;
+      }
+
+      @include media($medium-screen-down) {
+        padding: 0.75em .45em;
+
+        font-size: 0.8em;
       }
     }   
 
