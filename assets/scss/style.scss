@@ -8,25 +8,54 @@ $dark-gray: #222222;
 body {
   margin: 0px;
 
-  h2 {
+  h1, h2, h3 {
     color: $light-brown;
     span.light {
       font-weight: normal;;
     } 
   }
 
+  h4 {
+    color: $dark-gray;
+    font-weight: normal;
+    font-size: 1.4em;
+  }
+
   section {
     padding: 1em;
     @include outer-container;    
-  }  
+  }
 
-  video {
-    margin: auto;
-
-    @include media($large-screen) {
-      width: 50%;
+  article.lead {
+    margin-bottom: 2em;
+    p {
+      font-weight: 500;
+      font-style: italic; 
     }
   }
+
+  section.video {
+    div.video {
+      margin: auto;
+      @include span-columns(6);
+
+      @include media($medium-screen-down) {
+        @include span-columns(4);            
+      }
+    }  
+
+    aside {
+      @include span-columns(6);
+
+      @include media($medium-screen-down) {
+        @include span-columns(4);            
+      }
+    }
+  }  
+
+  
+
+  
 
   .video-wrapper {
     position: relative;

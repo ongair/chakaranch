@@ -37,8 +37,12 @@
             <li class=""><a class="" href="<?php echo url_for('/'); ?>">Home</a></li>
           <?php } ?>
           
+          <?php if ($active == 'rides') { ?>
+            <li class="active"><a class="#">Rides</a></li>
+          <?php } else { ?>
+            <li><a href="<?php echo url_for('rides'); ?>">Rides</a></li>
+          <?php } ?>
 
-          <li><a class="">Rides</a></li>
           <li><a class="">Activities</a></li>
           <li><a class="">Gallery</a></li>
 

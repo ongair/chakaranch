@@ -19,6 +19,13 @@
 		return html('home/contact.html.php', 'layouts/default.html.php');
 	}
 
+	dispatch('/rides', 'rides');
+	function rides() {
+		set('title', 'Amazing Rides');
+		set('active', 'rides');
+		return html('home/rides.html.php', 'layouts/default.html.php');
+	}
+
 	run();
 
 ?>
