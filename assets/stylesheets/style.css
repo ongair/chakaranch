@@ -237,6 +237,10 @@ input[type="submit"] {
 
 body {
   margin: 0px; }
+  body h2 {
+    color: #af8049; }
+    body h2 span.light {
+      font-weight: normal; }
   body section {
     padding: 1em;
     max-width: 68em;
@@ -336,17 +340,58 @@ body {
     min-height: 100px; }
     body .map:last-child {
       margin-right: 0; }
-  body form {
+    body .map h2 {
+      margin: 0.5em 0px; }
+    body .map img {
+      border: 1px solid #DDD; }
+    @media screen and (max-width: 40em) {
+      body .map {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        margin-bottom: 2.5em; }
+        body .map:last-child {
+          margin-right: 0; } }
+  body .form {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
-    border: 1px solid #eee;
+    border: 1px solid #DDD;
     display: block;
-    height: auto;
-    min-height: 300px; }
-    body form:last-child {
+    height: auto; }
+    body .form:last-child {
       margin-right: 0; }
+    body .form h2 {
+      text-align: center;
+      margin: 0.5em; }
+    body .form input[type="text"],
+    body .form input[type="email"],
+    body .form input[type="tel"],
+    body .form button,
+    body .form textarea {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      border-top: 0px;
+      border-radius: 0px;
+      border-left: 0px;
+      border-right: 0px; }
+    body .form textarea {
+      height: 140px;
+      display: block; }
+    body .form button {
+      width: 100%; }
+    body .form input[type="text"]:first-child {
+      border-top: 1px solid #DDD; }
+    @media screen and (max-width: 40em) {
+      body .form {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%; }
+        body .form:last-child {
+          margin-right: 0; } }
   body .nav {
     width: 100%;
     background-color: #222222;
@@ -377,10 +422,6 @@ body {
       width: 48.82117%; }
       body section.main aside:last-child {
         margin-right: 0; }
-      body section.main aside h2 {
-        color: #af8049; }
-        body section.main aside h2 span.light {
-          font-weight: normal; }
       @media screen and (max-width: 40em) {
         body section.main aside {
           float: left;

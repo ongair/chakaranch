@@ -8,6 +8,13 @@ $dark-gray: #222222;
 body {
   margin: 0px;
 
+  h2 {
+    color: $light-brown;
+    span.light {
+      font-weight: normal;;
+    } 
+  }
+
   section {
     padding: 1em;
     @include outer-container;    
@@ -114,14 +121,61 @@ body {
     @include span-columns(8);
     display: block;
     min-height: 100px;
+
+    h2 {
+      margin: 0.5em 0px;
+    }
+
+    img {
+      border: 1px solid #DDD;
+    }
+
+    @include media($medium-screen-down) {
+      @include span-columns(4);
+      margin-bottom: 2.5em;
+    }
   }
 
-  form {
+  .form {
     @include span-columns(4);
-    border: 1px solid #eee;
+    border: 1px solid #DDD;
     display: block;
     height: auto;
-    min-height: 300px;
+    
+    h2 {
+      text-align: center;
+      margin: 0.5em;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    button,
+    textarea {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      border-top: 0px;
+      border-radius: 0px;
+      border-left: 0px;
+      border-right: 0px;
+    }
+
+    textarea {
+      height: 140px;
+      display: block;
+    }
+
+    button {
+      width: 100%;
+    }
+
+    input[type="text"]:first-child {
+      border-top: 1px solid #DDD; 
+    }
+
+    @include media($medium-screen-down) {
+      @include span-columns(4);
+    }
   }
   
 
@@ -161,14 +215,7 @@ body {
     padding: 1em 1em 2.5em;
 
     aside {
-      @include span-columns(6);
-
-      h2 {
-        color: $light-brown;
-        span.light {
-          font-weight: normal;;
-        } 
-      }
+      @include span-columns(6);      
 
       @include media($medium-screen-down) {
         @include span-columns(4);
