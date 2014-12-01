@@ -16,7 +16,7 @@
 	function contact() {
 		set('title', "Contact Us");
 		set('active', "contact");
-		return html('home/index.html.php', 'layouts/default.html.php');
+		return html('home/contact.html.php', 'layouts/default.html.php');
 	}
 
 	run();

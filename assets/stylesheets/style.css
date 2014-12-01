@@ -318,6 +318,35 @@ body {
         @media screen and (max-width: 40em) {
           body header .social li {
             padding: 1.2em 5px; } }
+  body .banner {
+    background: url("../images/banner-image.jpg") no-repeat top left;
+    background-size: cover;
+    height: 126px;
+    width: 100%;
+    display: block; }
+    @media screen and (max-width: 40em) {
+      body .banner {
+        background: url("../images/banner-image-mobile.jpg") no-repeat -300px 0px; } }
+  body .map {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    display: block;
+    min-height: 100px; }
+    body .map:last-child {
+      margin-right: 0; }
+  body form {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    border: 1px solid #eee;
+    display: block;
+    height: auto;
+    min-height: 300px; }
+    body form:last-child {
+      margin-right: 0; }
   body .nav {
     width: 100%;
     background-color: #222222;

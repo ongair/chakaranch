@@ -98,6 +98,33 @@ body {
     }
   }
 
+  .banner {
+    background: url("../images/banner-image.jpg") no-repeat top left;
+    background-size: cover;
+    height: 126px;
+    width: 100%;
+    display: block;
+
+    @include media($medium-screen-down) {
+      background: url("../images/banner-image-mobile.jpg") no-repeat -300px 0px;
+    }
+  }
+
+  .map {
+    @include span-columns(8);
+    display: block;
+    min-height: 100px;
+  }
+
+  form {
+    @include span-columns(4);
+    border: 1px solid #eee;
+    display: block;
+    height: auto;
+    min-height: 300px;
+  }
+  
+
   .nav {
     section {
       padding: 0px 1em;
