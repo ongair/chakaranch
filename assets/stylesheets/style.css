@@ -361,7 +361,8 @@ body {
           body section.main aside:last-child {
             margin-right: 0; } }
   body footer {
-    width: 100%; }
+    width: 100%;
+    margin-top: 2em; }
     body footer .information {
       background-color: #222222; }
       body footer .information section {
