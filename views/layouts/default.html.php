@@ -85,7 +85,7 @@
           </div>
           <div class="contacts">
             <ul>
-              <li>Tel: <tel>0738600046 / 0719242897</tel></li>
+              <li>Tel: <tel>0738600046 / 0719242897 / 0719242885</tel></li>
               <li><a href="https://www.facebook.com/chaka.ranch">Facebook</a></li>
               <li><a href="https://twitter.com/chakaranch">Twitter</a></li>
               <li><a href="javascript:void(0)">YouTube</a></li>

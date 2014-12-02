@@ -25,7 +25,7 @@
         <ul>
           <li>5+<span>Years</span></li>
           <li>500<span>KES</span></li>
-          <!-- <li>923<span>Objects</span></li> -->
+          <li>30<span>Mins</span></li>
         </ul>
       </div>
     </div>
@@ -42,7 +42,7 @@
       </div>
       <div class="card-stats">
         <ul>
-          <li>6-13<span>Years</span></li>
+          <li>7-13<span>Years</span></li>
           <li>2000<span>KES</span></li>
           <!-- <li>923<span>Objects</span></li> -->
         </ul>
@@ -61,7 +61,7 @@
       </div>
       <div class="card-stats">
         <ul>
-          <li>8-13<span>Years</span></li>
+          <li>7-13<span>Years</span></li>
           <li>2000<span>KES</span></li>
           <!-- <li>2<span>PAX</span></li> -->
         </ul>
@@ -80,7 +80,7 @@
       </div>
       <div class="card-stats">
         <ul>
-          <li>5+<span>Years</span></li>
+          <li>14+<span>Years</span></li>
           <li>2500+<span>KES</span></li>
           <!-- <li>923<span>Objects</span></li> -->
         </ul>
