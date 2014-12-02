@@ -427,6 +427,8 @@ body {
         width: 100%; }
         body .form:last-child {
           margin-right: 0; } }
+  body .payment p {
+    text-align: center; }
   body .nav {
     width: 100%;
     background-color: #222222;
@@ -662,5 +664,38 @@ cards:after {
     background-color: #f7f7f7; }
     .card:active .card-header {
       background-color: #f7f7f7; }
+
+.parallax-window {
+  max-height: 30em;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+
+.parallax-static-content {
+  color: #9A9A8A;
+  padding: 8em 0;
+  position: relative;
+  z-index: 9; }
+
+.parallax-background {
+  /*background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;*/
+  background: url("../images/slider-mount-kenya.jpg") repeat;
+  background-size: cover;
+  background-color: beige;
+  background-position: top;
+  height: 60em;
+  left: 0;
+  position: absolute;
+  top: -10em;
+  width: 100%; }
+
+.activities article {
+  margin-bottom: 2em;
+  min-height: 200px;
+  display: block; }
+
+#pager img {
+  max-width: 100px; }
 
 /*# sourceMappingURL=style.css.map */

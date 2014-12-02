@@ -125,9 +125,11 @@
         </ul>
       </div>
     </div>
-
-
   </div>        
+
+  <div class="payment">
+    <p>All payments for rides to be made via MPESA</p>
+  </div>
 </section>
 
 <!-- <section class="video">

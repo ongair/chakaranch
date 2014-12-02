@@ -33,6 +33,13 @@
 		return html('home/gallery.html.php', 'layouts/default.html.php');
 	}
 
+	dispatch('/activities', 'activities');
+	function activities() {
+		set('title', 'Wholesome Family fun');
+		set('active', 'activities');
+		return html('home/activities.html.php', 'layouts/default.html.php');
+	}
+
 	run();
 
 ?>

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/stylesheets/owl.transitions.css" />
     <link rel="stylesheet" href="assets/stylesheets/owl.theme.css" />
     <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <link rel="stylesheet" href="assets/stylesheets/jquery.bxslider.css" />
     <script type="text/javascript" src="assets/javascripts/jquery-1.9.1.min.js"></script>
   </head>
   
@@ -44,7 +45,11 @@
             <li><a href="<?php echo url_for('rides'); ?>">Rides</a></li>
           <?php } ?>
 
-          <li><a class="">Activities</a></li>
+          <?php if ($active == 'activities') { ?>
+            <li class="active"><a href="#">Activities</a></li>
+          <?php } else { ?>
+            <li><a href="<?php echo url_for('activities'); ?>">Activities</a></li>
+          <?php } ?>          
 
           <?php if ($active == 'gallery') { ?>
             <li class="active"><a href="#">Gallery</a></li>
