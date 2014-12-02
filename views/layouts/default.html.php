@@ -39,7 +39,7 @@
           <?php } ?>
           
           <?php if ($active == 'rides') { ?>
-            <li class="active"><a href="#">Rides</a></li>
+            <li class="active"><a href="#">Drive</a></li>
           <?php } else { ?>
             <li><a href="<?php echo url_for('rides'); ?>">Rides</a></li>
           <?php } ?>
