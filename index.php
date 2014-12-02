@@ -26,6 +26,13 @@
 		return html('home/rides.html.php', 'layouts/default.html.php');
 	}
 
+	dispatch('/gallery', 'gallery');
+	function gallery() {
+		set('title', 'Gallery');
+		set('active', 'gallery');
+		return html('home/gallery.html.php', 'layouts/default.html.php');
+	}
+
 	run();
 
 ?>

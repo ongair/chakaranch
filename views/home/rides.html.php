@@ -11,7 +11,7 @@
         
 </section>
 
-<section class="video">
+<!-- <section class="video">
   <div class="video">
     <div class="video-wrapper">
         <iframe src="//www.youtube.com/embed/ksVJHfxG46g?showinfo=0&iv_load_policy=3&controls=0" frameborder="0" allowfullscreen></iframe>
@@ -24,4 +24,4 @@
 
     <p>Rest assured, we have something for everbody. See below, our selection of quadbikes and buggies for your entertainment.</p>
   </aside>
-</section>
+</section> -->

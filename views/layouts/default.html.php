@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/stylesheets/owl.transitions.css" />
     <link rel="stylesheet" href="assets/stylesheets/owl.theme.css" />
     <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <script type="text/javascript" src="assets/javascripts/jquery-1.9.1.min.js"></script>
   </head>
   
   <body class="<?php echo $active; ?>">
@@ -38,13 +39,18 @@
           <?php } ?>
           
           <?php if ($active == 'rides') { ?>
-            <li class="active"><a class="#">Rides</a></li>
+            <li class="active"><a href="#">Rides</a></li>
           <?php } else { ?>
             <li><a href="<?php echo url_for('rides'); ?>">Rides</a></li>
           <?php } ?>
 
           <li><a class="">Activities</a></li>
-          <li><a class="">Gallery</a></li>
+
+          <?php if ($active == 'gallery') { ?>
+            <li class="active"><a href="#">Gallery</a></li>
+          <?php } else { ?>
+            <li><a href="<?php echo url_for('gallery'); ?>">Gallery</a></li>
+          <?php } ?>
 
           <?php if ($active == 'contact') { ?>
             <li class="active"><a class="#">Contact Us</a></li>
